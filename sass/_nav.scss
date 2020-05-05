@@ -1,0 +1,53 @@
+.topbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    @media(min-width: 600px){
+        justify-content: space-around;
+    }
+
+    &__container{
+        display: flex;
+        @media(min-width: 600px){
+            justify-content: flex-end;
+        }
+    } 
+
+    &__add-name{
+        padding: 7px 0px 7px 7px ;
+        font-size: 1.1rem;
+        margin-left: 7px;
+    }
+
+    &__average-subjects{
+        display: flex;
+    }
+
+    &__score{
+        border:4px solid $button-color ;
+        width: 50px;
+        height: 29px;
+        margin: 5px;
+        font-size: 1.4rem;
+        color: white;
+        text-align: center;
+        line-height: 1.8rem;
+    }
+}
+
+.button-standard{
+    padding: 4px 6px;
+    margin: 5px;
+    border: 4px solid $button-color;
+    font-size: 1.1rem;
+    background-color:$bacground-color;
+    color: white;
+    cursor: pointer;
+
+    &--mirror{
+        background-color: $button-color;
+    }
+}
+
