@@ -1,6 +1,6 @@
 # SchoolGradingCalculator
 
-[Link to site](https://norbertluszkiewicz.github.io/SchoolGradingCalculator./)
+[Link to site](https://5f149ac809fd44bcfce21e9c--gallant-brown-d4b4e3.netlify.app/)
 
 ## Available Scripts
 
